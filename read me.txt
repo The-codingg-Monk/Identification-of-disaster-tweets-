@@ -1,0 +1,21 @@
+Natural Language Processing with Disaster Tweets
+
+Problem Statement-
+
+Twitter has become an important communication channel in times of emergency.
+The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies).
+But, it’s not always clear whether a person’s words are actually announcing a disaster. Take this example:
+a user tweets--
+" On plus side LOOK AT THE SKY LAST NIGHT T WAS ABLAZE"
+
+The author explicitly uses the word “ABLAZE” but means it metaphorically. This is clear to a human right away, especially with the visual aid. But it’s less clear to a machine.I had to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t. I analysed 10000 tweets fot this task.
+The dataset was created by the company figure-eight and originally shared on their ‘Data For Everyone’ website here.
+Tweet source: https://twitter.com/AnyOtherAnnaK/status/629195955506708480
+
+
+In this model for word embedding i used Tfidf and word2vec. 
+for modelling I used Logistic Regresion, knn, Decision Tree, Random Forest, AdaBoost, xgboost,SVM, and navie bayes.
+
+Result-- Found naive bayes as the best generalized model with Tfidf word embedding.
+
+
